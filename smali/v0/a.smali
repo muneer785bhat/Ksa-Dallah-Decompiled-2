@@ -1,0 +1,9 @@
+###### Class v0.InterfaceC3461a (v0.a)
+.class public interface abstract Lv0/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Ljava/util/List;)Ljava/lang/Object;
+.end method

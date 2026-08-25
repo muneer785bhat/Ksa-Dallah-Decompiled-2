@@ -1,0 +1,70 @@
+###### Class M4.l (M4.l)
+.class public final LM4/l;
+.super LH5/c;
+.source "SourceFile"
+
+
+# instance fields
+.field public synthetic H:Ljava/lang/Object;
+
+.field public final synthetic I:LM4/m;
+
+.field public J:I
+
+
+# direct methods
+.method public constructor <init>(LM4/m;LH5/c;)V
+    .registers 3
+
+    .line 1
+    iput-object p1, p0, LM4/l;->I:LM4/m;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, p2}, LH5/c;-><init>(LF5/d;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final l(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    iput-object p1, p0, LM4/l;->H:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    iget p1, p0, LM4/l;->J:I
+
+    .line 4
+    .line 5
+    const/high16 v0, -0x80000000
+
+    .line 6
+    .line 7
+    or-int/2addr p1, v0
+
+    .line 8
+    iput p1, p0, LM4/l;->J:I
+
+    .line 9
+    .line 10
+    iget-object p1, p0, LM4/l;->I:LM4/m;
+
+    .line 11
+    .line 12
+    invoke-virtual {p1, p0}, LM4/m;->b(LH5/c;)Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    return-object p1
+.end method

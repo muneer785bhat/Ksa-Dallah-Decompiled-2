@@ -1,0 +1,25 @@
+package D3;
+
+import C1.C0042q;
+import android.os.Parcel;
+import android.os.Parcelable;
+import java.util.ArrayList;
+import java.util.List;
+import m3.AbstractC3213a;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class M1 extends AbstractC3213a {
+    public static final Parcelable.Creator<M1> CREATOR = new C0042q(11);
+    public final List E;
+
+    public M1(ArrayList arrayList) {
+        this.E = arrayList;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i5) {
+        int iR = t3.f.R(parcel, 20293);
+        t3.f.L(parcel, 1, this.E);
+        t3.f.S(parcel, iR);
+    }
+}

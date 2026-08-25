@@ -1,0 +1,163 @@
+###### Class s1.g (s1.g)
+.class public final Ls1/g;
+.super Ls1/d;
+.source "SourceFile"
+
+
+# instance fields
+.field public final c:Landroid/window/OnBackInvokedDispatcher;
+
+.field public final d:I
+
+.field public final e:Landroid/window/OnBackInvokedCallback;
+
+.field public f:Z
+
+
+# direct methods
+.method public constructor <init>(Landroid/window/OnBackInvokedDispatcher;I)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Ls1/g;->c:Landroid/window/OnBackInvokedDispatcher;
+
+    .line 5
+    .line 6
+    iput p2, p0, Ls1/g;->d:I
+
+    .line 7
+    .line 8
+    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    .line 9
+    .line 10
+    const/16 p2, 0x21
+
+    .line 11
+    .line 12
+    if-ne p1, p2, :cond_14
+
+    .line 13
+    .line 14
+    new-instance p1, LT4/b;
+
+    .line 15
+    .line 16
+    const/4 p2, 0x1
+
+    .line 17
+    invoke-direct {p1, p2, p0}, LT4/b;-><init>(ILjava/lang/Object;)V
+
+    .line 18
+    .line 19
+    .line 20
+    goto :goto_1a
+
+    .line 21
+    :cond_14
+    new-instance p1, LT4/c;
+
+    .line 22
+    .line 23
+    const/4 p2, 0x1
+
+    .line 24
+    invoke-direct {p1, p2, p0}, LT4/c;-><init>(ILjava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    :goto_1a
+    iput-object p1, p0, Ls1/g;->e:Landroid/window/OnBackInvokedCallback;
+
+    .line 28
+    .line 29
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Z)V
+    .registers 4
+
+    .line 1
+    if-eqz p1, :cond_13
+
+    .line 2
+    .line 3
+    iget-boolean v0, p0, Ls1/g;->f:Z
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_13
+
+    .line 6
+    .line 7
+    iget-object p1, p0, Ls1/g;->c:Landroid/window/OnBackInvokedDispatcher;
+
+    .line 8
+    .line 9
+    iget v0, p0, Ls1/g;->d:I
+
+    .line 10
+    .line 11
+    iget-object v1, p0, Ls1/g;->e:Landroid/window/OnBackInvokedCallback;
+
+    .line 12
+    .line 13
+    invoke-static {p1, v0, v1}, Lio/flutter/plugin/editing/g;->k(Landroid/window/OnBackInvokedDispatcher;ILandroid/window/OnBackInvokedCallback;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const/4 p1, 0x1
+
+    .line 17
+    iput-boolean p1, p0, Ls1/g;->f:Z
+
+    .line 18
+    .line 19
+    return-void
+
+    .line 20
+    :cond_13
+    if-nez p1, :cond_23
+
+    .line 21
+    .line 22
+    iget-boolean p1, p0, Ls1/g;->f:Z
+
+    .line 23
+    .line 24
+    if-eqz p1, :cond_23
+
+    .line 25
+    .line 26
+    iget-object p1, p0, Ls1/g;->c:Landroid/window/OnBackInvokedDispatcher;
+
+    .line 27
+    .line 28
+    iget-object v0, p0, Ls1/g;->e:Landroid/window/OnBackInvokedCallback;
+
+    .line 29
+    .line 30
+    invoke-static {p1, v0}, Lio/flutter/plugin/editing/g;->l(Landroid/window/OnBackInvokedDispatcher;Landroid/window/OnBackInvokedCallback;)V
+
+    .line 31
+    .line 32
+    .line 33
+    const/4 p1, 0x0
+
+    .line 34
+    iput-boolean p1, p0, Ls1/g;->f:Z
+
+    .line 35
+    .line 36
+    :cond_23
+    return-void
+.end method

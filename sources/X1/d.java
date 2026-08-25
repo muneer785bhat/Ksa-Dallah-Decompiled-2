@@ -1,0 +1,15 @@
+package X1;
+
+import androidx.window.sidecar.SidecarDisplayFeature;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class d extends P5.i implements O5.l {
+    public static final d F = new d(1);
+
+    @Override // O5.l
+    /* JADX INFO: renamed from: c, reason: merged with bridge method [inline-methods] */
+    public final Boolean a(SidecarDisplayFeature sidecarDisplayFeature) {
+        P5.h.e(sidecarDisplayFeature, "$this$require");
+        return Boolean.valueOf((sidecarDisplayFeature.getRect().width() == 0 && sidecarDisplayFeature.getRect().height() == 0) ? false : true);
+    }
+}

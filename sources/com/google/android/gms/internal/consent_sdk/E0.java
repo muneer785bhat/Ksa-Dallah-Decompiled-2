@@ -1,0 +1,33 @@
+package com.google.android.gms.internal.consent_sdk;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class E0 extends AbstractC2421p2 {
+    private static final E0 zzb;
+
+    static {
+        E0 e02 = new E0();
+        zzb = e02;
+        AbstractC2421p2.l(E0.class, e02);
+    }
+
+    @Override // com.google.android.gms.internal.consent_sdk.AbstractC2421p2
+    public final Object f(int i5) {
+        int i7 = i5 - 1;
+        if (i7 == 0) {
+            return (byte) 1;
+        }
+        if (i7 == 2) {
+            return new I2(zzb, "\u0004\u0000", null);
+        }
+        if (i7 == 3) {
+            return new E0();
+        }
+        if (i7 == 4) {
+            return new U(zzb);
+        }
+        if (i7 == 5) {
+            return zzb;
+        }
+        throw null;
+    }
+}

@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.play_billing;
+
+import sun.misc.Unsafe;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class M {
+    public static /* synthetic */ boolean a(Unsafe unsafe, Object obj, long j6, Object obj2, Object obj3) {
+        while (!unsafe.compareAndSwapObject(obj, j6, obj2, obj3)) {
+            if (unsafe.getObject(obj, j6) != obj2) {
+                return false;
+            }
+        }
+        return true;
+    }
+}

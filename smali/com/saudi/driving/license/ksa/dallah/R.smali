@@ -1,0 +1,17 @@
+###### Class com.saudi.driving.license.ksa.dallah.R is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.anim is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.animator is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.attr is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.bool is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.color is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.dimen is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.drawable is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.id is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.integer is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.interpolator is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.layout is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.mipmap is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.raw is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.string is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.style is created by jadx
+###### Class com.saudi.driving.license.ksa.dallah.R.xml is created by jadx
